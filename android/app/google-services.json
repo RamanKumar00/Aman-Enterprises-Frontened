@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "475875575304",
+    "project_id": "sarv-suvidhaen-ef66c",
+    "storage_bucket": "sarv-suvidhaen-ef66c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475875575304:android:2812eef3d454b6861a33bd",
+        "android_client_info": {
+          "package_name": "com.amanenterprises.aman_enterprises"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475875575304-kit8evddc8avak9gn3jb9smqrfi9cu8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmulspWtGXQrP1LtgLvpmLDD7ilUT7Z1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475875575304-kit8evddc8avak9gn3jb9smqrfi9cu8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

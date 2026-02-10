@@ -1,0 +1,72 @@
+name: aman_enterprises
+description: "Aman Enterprises - Fresh groceries delivered to your doorstep in minutes"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  country_code_picker: ^3.0.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  speech_to_text: ^7.3.0
+  permission_handler: ^12.0.1
+  easy_localization: ^3.0.8
+  google_sign_in: ^6.2.1
+  firebase_auth: ^6.1.4
+  firebase_core: ^4.4.0
+  package_info_plus: ^9.0.0
+  image_picker: ^1.2.1
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  uuid: ^4.5.2
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  cached_network_image: ^3.4.1
+
+  url_launcher: ^6.3.2
+  font_awesome_flutter: ^10.12.0
+  firebase_messaging: ^16.1.1
+  flutter_local_notifications: ^20.0.0
+  flutter_cache_manager: ^3.4.1
+  share_plus: ^10.1.4
+  intl: ^0.20.2
+  file_picker: ^8.0.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  shimmer: ^3.0.0
+  animations: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  adaptive_icon_background: "#1A237E"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/categories/
+    - assets/images/products/
+    - assets/images/placeholder.png
+    - assets/icons/
+    - assets/translations/
+    - assets/icon/
+
